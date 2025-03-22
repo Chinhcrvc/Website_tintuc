@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* height: 100vh;
+  margin: 10px; */
+}
+
+.login-container {
+	background: white;
+	padding: 32px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px black;
+	width: 300px;
+}
+
+h3 {
+	font-weight: bolder;
+	font-size: 20px;
+	color: purple;
+	text-align: center;
+}
+
+.input-group {
+	position: relative;
+}
+
+.input-group .fa-user, .fa-lock {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	color: grey;
+	pointer-events: none; /* Ngăn chặn tương tác với icon */
+}
+
+.form-control {
+	padding: 5px 5px 5px 30px;
+	width: 260px;
+	height: 25px;
+	border-radius: 5px;
+	box-shadow: 0 0 3px blue;
+	color: black;
+	display: block;
+	outline: none;
+}
+
+.form-control:focus {
+	box-shadow: 0 0 3px red;
+}
+
+.error-message {
+	color: red;
+	font-size: 13px;
+}
+
+
+.form-control-login {
+	text-align: center;
+	padding: 5px;
+	width: 300px;
+	height: 40px;
+	line-height: 20px;
+	border-radius: 5px;
+	background: yellow;
+	cursor: pointer;
+	font-weight: bolder;
+}
+
+.forgot-password {
+	font-weight: bolder;
+}
+
+.create-account {
+	font-weight: bolder;
+	text-align: center;
+}
+
+.label-center {
+	text-align: center;
+	color: grey;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.social-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid blue;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.social-link i {
+	margin-right: 5px;
+}
+
+.social-link:hover {
+	background: orangered;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
